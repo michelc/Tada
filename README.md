@@ -120,7 +120,7 @@ Exemples :
 
 ## Compilation
 
-Pour obtenir un .EXE qui est ensuite utilisable par `c:\Mvc\Tada\exe\tada.exe`, exécuter la commande :
+Pour obtenir un .EXE qui est ensuite utilisable par `c:\Mvc\Tada\exe\tada.exe`, lancer le batch "build_exe.bat" qui exécute la commande suivante :
 
 ```
 c:\Mvc\Tada> dotnet publish --output "c:/mvc/tada/exe" --runtime win-x64 --configuration Release -p:PublishSingleFile=true --self-contained false
